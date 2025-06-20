@@ -14,7 +14,7 @@
 ```
 myresearch/
 ├── scripts/                  # Pythonスクリプト
-│   └── BoneModel_HipTestSimulation.py  #バグあり
+│   └── BoneModel_HipTestSimulation.py
 │   └── BoneModel_HipTestSimulation_2.py
 ├── data/                     # 入力データ
 │   ├── fe.asc                # 大腿骨3Dモデルの点群データ
