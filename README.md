@@ -14,7 +14,7 @@
 ```
 myresearch/
 ├── scripts/                  # Pythonスクリプト（ver.2含む）
-│   └── BoneModel_HipTestSimulation_v2.py
+│   └── BoneModel_HipTestSimulation_2.py
 ├── data/                     # 入力データ
 │   ├── fe.asc                # 大腿骨3Dモデルの点群データ
 │   ├── fe.pp                 # 大腿骨の特徴点座標（座標系構築に必要）
@@ -38,9 +38,6 @@ myresearch/
 ## 🚀 実行方法
 
 1. スクリプトを実行  
-   ```bash
-   python scripts/BoneModel_HipTestSimulation_v2.py
-   ```
 
 2. ファイルを以下の順に選択（ダイアログが順番に表示されます）  
    1. `fe.asc`  
@@ -51,41 +48,6 @@ myresearch/
 
 3. `auto` または `manual` を選択  
 4. 骨の動きが Open3D のウィンドウ上に表示されます
-
----
-
-## 🧾 実行までの手順（開発者メモ）
-
-1. プロジェクトフォルダへ移動  
-   ```
-   cd ~/HipTestSimulation
-   ```
-
-2. 仮想環境を作成  
-   ```
-   python3 -m venv venv
-   ```
-
-3. 仮想環境を有効化  
-   ```
-   source venv/bin/activate
-   ```
-
-4. 必要なライブラリをインストール  
-   ```
-   pip install --upgrade pip
-   pip install open3d numpy pandas openpyxl
-   ```
-
-5. スクリプトを実行  
-   ```
-   python scripts/BoneModel_HipTestSimulation_v2.py
-   ```
-
-6. 終了  
-   ```
-   deactivate
-   ```
 
 ---
 
