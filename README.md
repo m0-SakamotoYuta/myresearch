@@ -16,10 +16,10 @@ myresearch/
 ├── scripts/                  # Pythonスクリプト（ver.2含む）
 │   └── BoneModel_HipTestSimulation_v2.py
 ├── data/                     # 入力データ
-│   ├── fe.asc                # 点群データ
-│   ├── fe.pp                 # 座標系構築の特徴点
-│   ├── pv.asc
-│   ├── pv.pp
+│   ├── fe.asc                # 大腿骨3Dモデルの点群データ
+│   ├── fe.pp                 # 大腿骨の特徴点座標（座標系構築に必要）
+│   ├── pv.asc　　　　　　　　　 # 骨盤3Dモデルの点群データ
+│   ├── pv.pp　　　　　　　　　  # 骨盤の特徴点座標（座標系構築に必要）
 │   └── test-moving.xlsx      # ロボットの動作データ
 └── README.md
 ```
@@ -32,7 +32,20 @@ myresearch/
 - Open3D
 - macOS（開発環境）
 
-## 実行方法（一例です）
+## 実行方法
+
+```
+1. スクリプトを実行
+2. ファイルを以下の順に選択
+  1. fe.asc
+  2. fe.pp
+  3. pv.asc
+  4. pv.pp
+  5. test-moving.xlsx
+3. auto or manualを選択
+4. 骨の動きがOpen3Dのウィンドウ上に表示されます。
+
+###実行までの手順（自分用のメモ）
 1. プロジェクトフォルダへ移動：cd ~/HipTestSimulation
 2. 仮想環境を作成：python3 -m venv venv
 3. 仮想環境を有効化：source venv/bin/activate
@@ -40,6 +53,7 @@ myresearch/
 5. スクリプトを実行：python BoneModel_HipTestSimulation.py
 6. 終了：deactivate
 
+```
 ---
 
 ## バージョン履歴
