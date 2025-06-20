@@ -11,18 +11,20 @@
 
 ## ディレクトリ構成
 
+```
 myresearch/
 ├── scripts/                  # Pythonスクリプト（ver.2含む）
 │   └── BoneModel_HipTestSimulation_v2.py
-├── data/                     # 入力データ（asc：点群データ、pp：座標系構築のための特徴点、xlsx：ロボットシステムで得られた動作データ）
-│   ├── fe.asc
-│   ├── fe.pp
+├── data/                     # 入力データ
+│   ├── fe.asc                # 点群データ
+│   ├── fe.pp                 # 座標系構築の特徴点
 │   ├── pv.asc
 │   ├── pv.pp
-│   └── test-moving.xlsx
+│   └── test-moving.xlsx      # ロボットの動作データ
 └── README.md
-
+```
 ---
+
 ## 使用技術・環境
 
 - Python 3.x
