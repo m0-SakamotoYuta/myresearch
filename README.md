@@ -13,15 +13,15 @@
 
 ```
 myresearch/
-├── scripts/                  # Pythonスクリプト
+├── scripts/               　　　　　　　　　　   # Pythonスクリプト
 │   └── BoneModel_HipTestSimulation.py
 │   └── BoneModel_HipTestSimulation_2.py
-├── data/                     # 入力データ
-│   ├── fe.asc                # 大腿骨3Dモデルの点群データ
-│   ├── fe.pp                 # 大腿骨の特徴点座標（座標系構築に必要）
-│   ├── pv.asc                # 骨盤3Dモデルの点群データ
-│   ├── pv.pp                 # 骨盤の特徴点座標（座標系構築に必要）
-│   └── test-moving.xlsx      # ロボットの動作データ
+├── data/                     　　　　　　　　　　# 入力データ
+│   ├── fe.asc              　　　　　　　　　　  # 大腿骨3Dモデルの点群データ
+│   ├── fe.pp              　　　　　　　　　　   # 大腿骨の特徴点座標（座標系構築に必要）
+│   ├── pv.asc              　　　　　　　　　　  # 骨盤3Dモデルの点群データ
+│   ├── pv.pp                　　　　　　　　　　 # 骨盤の特徴点座標（座標系構築に必要）
+│   └── test-moving.xlsx    　　　　　　　　　　  # ロボットの動作データ
 └── README.md
 ```
 
