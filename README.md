@@ -32,7 +32,6 @@ myresearch/
 - Python 3.x  
 - NumPy  
 - Open3D  
-- macOS（開発環境）
 
 ---
 
